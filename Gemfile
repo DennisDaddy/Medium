@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 
 
-
+gem 'database_cleaner', '~> 1.5', '>= 1.5.3'
 gem 'faker'
 gem 'fog'
 gem 'carrierwave'
