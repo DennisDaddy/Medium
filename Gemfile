@@ -1,13 +1,14 @@
 source 'https://rubygems.org'
 
 
-gem 'database_cleaner', '~> 1.5', '>= 1.5.3'
+
 gem 'faker'
 gem 'fog'
 gem 'carrierwave'
 gem 'mini_magick'
 gem "font-awesome-rails"
 gem 'devise'
+
 
 gem 'will_paginate'
 gem 'bootstrap-will_paginate'
@@ -63,6 +64,7 @@ group :test do
 	gem 'mini_backtrace'
 	gem 'guard-minitest'
   gem 'capybara'
+  gem 'database_cleaner'
 	end
 group :production do
 gem 'pg'
