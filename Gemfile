@@ -65,6 +65,7 @@ group :test do
 	gem 'guard-minitest'
   gem 'capybara'
   gem 'database_cleaner'
+  gem 'factory_girl_rails'
 	end
 group :production do
 gem 'pg'
