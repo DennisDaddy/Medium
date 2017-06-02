@@ -14,7 +14,7 @@ RSpec.describe "Creating post" do
 
 		within(".posts") do
 		expect(page).to have_content "My first post"
-		expect(page).to have_content "exampleuser"
+		expect(page).to have_content user.username
 	end
 	end
 
