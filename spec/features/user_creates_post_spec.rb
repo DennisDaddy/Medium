@@ -1,8 +1,7 @@
 require "rails_helper"
 
 RSpec.describe "Creating post" do 
-	let(:user) { User.create(username: "exampleuser", email: "example@user.com", 
-		password: 'password', password_confirmation: 'password')}
+	let(:user) { create(:user)}
 
 	scenario "successfully" do
 		sign_in user
